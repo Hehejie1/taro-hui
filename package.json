@@ -1,7 +1,7 @@
 {
   "name": "taro-hui",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "hui是由taro开发的ui框架，致力于打造公共标准，以及兼容多端的组件。",
   "templateInfo": {
     "name": "default",
@@ -12,9 +12,6 @@
     "type": "git",
     "url": "https://github.com/Hehejie1/taro-hui"
   },
-  "files": [
-    "es"
-  ],
   "scripts": {
     "build:weapp": "taro build --type weapp",
     "build:swan": "taro build --type swan",
